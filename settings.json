@@ -1,0 +1,31 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+    },
+    "emmet.excludeLanguages": [
+    "markdown"
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.tabSize": 2,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "python.defaultInterpreterPath": "C:\\Python39\\python.exe",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+}
