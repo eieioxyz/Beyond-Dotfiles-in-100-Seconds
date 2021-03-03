@@ -1,8 +1,23 @@
 [user]
-	name = Patrick McDonald
-	email = 66495007+eieioxyz@users.noreply.github.com
-
-
+  email = 22437776+victornguyen75@users.noreply.github.com
+  name = Nguyen, Victor
+[alias]
+  fe = fetch
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  discard = checkout --
+  unadd = reset HEAD --
+  unci = reset HEAD^ # uncommit the latest commit
+  cim = commit -m
+  pv = !git push origin && version.sh
+  type = cat-file -t # requires hash
+  dump = cat-file -p # requires hash
+  alias = !git config -l | grep 'alias.' | cut -c 7-
+  hist = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)|%Creset%C(cyan)%d%Creset %s %C(magenta)[%an]%Creset %Cgreen(%cr)%Creset' --date=short --abbrev-commit
+  hist-3 = hist -3 HEAD
+  create-logs = !git log --format=%s master..develop | awk '!/Automatic/ && !/Merge/' # create CHANGELOG
 
 # Other possible Git configurations.
 # - Set the default editor (nano, VS Code, etc.)
