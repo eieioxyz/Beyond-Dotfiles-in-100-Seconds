@@ -1,10 +1,8 @@
 {
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-    },
-    "emmet.excludeLanguages": [
-    "markdown"
-  ],
+  },
+  "emmet.excludeLanguages": ["markdown"],
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
   "editor.snippetSuggestions": "top",
@@ -27,5 +25,5 @@
   "editor.formatOnSave": true,
   "eslint.alwaysShowStatus": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1
 }
