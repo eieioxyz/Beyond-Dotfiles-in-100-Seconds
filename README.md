@@ -73,6 +73,19 @@ brew bundle --file ~/.dotfiles/Brewfile
 cd ~/.dotfiles && brew bundle
 ```
 
+## VSCode Extensions
+
+- Beautify (hookyqr.beautify)
+- C/C++ (ms-vscode.cpptools)
+- ES7 React (dsznajder.es7-react-js-snippets)
+- Eslint (dbaeumer.vscode-eslint)
+- GitLens (eamodio.gitlens)
+- GraphQL (kumar-harsh.graphql-for-vscode)
+- Prettier (esbenp.prettier-vscode)
+- Pylance (ms-python.vscode-pylance)
+- Python (ms-python.python)
+- vscode-styled-component (jpoissonnier.vscode-styled-components)
+
 ## TODO List for Windows Configurations
 
 - Learn how to install scripts and bootstrapping tools for windows
