@@ -7,9 +7,11 @@
   "emmet.showSuggestionsAsSnippets": true,
   "editor.snippetSuggestions": "top",
   "editor.semanticHighlighting.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
   "editor.tabSize": 2,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-  "python.defaultInterpreterPath": "C:\\Python39\\python.exe",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -22,12 +24,24 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "eslint.alwaysShowStatus": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.singleQuote": true,
   "prettier.requireConfig": true,
-  "prettier.semi": true,
+  "prettier.semi": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "window.zoomLevel": 1
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "redhat.telemetry.enabled": false,
+  "workbench.colorCustomizations": {},
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.allowMnemonics": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.statusBar.visible": false,
+  "window.zoomLevel": 2,
+  "update.showReleaseNotes": false
 }
+
