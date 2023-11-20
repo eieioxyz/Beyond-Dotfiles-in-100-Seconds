@@ -1,14 +1,14 @@
 # Beyond Dotfiles in 100 Seconds
 
-[![Video thumbnail with link to video...might not need the header line because of this](./dotfiles-in-100-seconds-cover.jpg)](https://youtu.be/r_MpUP6aKiQ "Dotfiles in 100 Seconds on YouTube")
+[![Video thumbnail with link to video...might not need the header line because of this](./dotfiles-in-100-seconds-cover.jpg)](https://youtu.be/r_MpUP6aKiQ 'Dotfiles in 100 Seconds on YouTube')
 
-Watch the [video collaboration](https://youtu.be/r_MpUP6aKiQ "Dotfiles in 100 Seconds on YouTube") between [fireship.io](https://fireship.io/ "Build and ship 🔥 your app ⚡ faster") and [eieio.xyz](http://dotfiles.eieio.xyz "Dotfiles from Start to Finish-ish"). And don't forget to [subscribe](https://fireship.page.link/youtube "Fireship YouTube Channel") while you're there!
+Watch the [video collaboration](https://youtu.be/r_MpUP6aKiQ 'Dotfiles in 100 Seconds on YouTube') between [fireship.io](https://fireship.io/ 'Build and ship 🔥 your app ⚡ faster') and [eieio.xyz](http://dotfiles.eieio.xyz 'Dotfiles from Start to Finish-ish'). And don't forget to [subscribe](https://fireship.page.link/youtube 'Fireship YouTube Channel') while you're there!
 
-Then, go **_way_** beyond 100 seconds by taking the full course on Udemy, [**_Dotfiles from Start to Finish-ish_**](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276 "Learn Dotfiles from Start to Finish-ish on Udemy") (aka "Dotiles in 15240 Seconds and Growing"). Keep an eye on [Twitter](https://twitter.com/EIEIOxyz "@EIEIOxyz") and [YouTube](https://www.youtube.com/channel/UCcZZOzRKMbql7IEL0midfgQ "EIEIO YouTube Channel") for updates to the course.
+Then, go **_way_** beyond 100 seconds by taking the full course on Udemy, [**_Dotfiles from Start to Finish-ish_**](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276 'Learn Dotfiles from Start to Finish-ish on Udemy') (aka "Dotiles in 15240 Seconds and Growing"). Keep an eye on [Twitter](https://twitter.com/EIEIOxyz '@EIEIOxyz') and [YouTube](https://www.youtube.com/channel/UCcZZOzRKMbql7IEL0midfgQ 'EIEIO YouTube Channel') for updates to the course.
 
 ## Steps to bootstrap a new Windows
 
-1. [Install Git to use Git Bash](https://git-scm.com/download/win "Download Git for Windows")
+1. [Install Git to use Git Bash](https://git-scm.com/download/win 'Download Git for Windows')
 
 2. Clone repo into a new hidden directory with Git Bash, Command Prompt, or Powershell.
 
@@ -73,6 +73,37 @@ brew bundle --file ~/.dotfiles/Brewfile
 cd ~/.dotfiles && brew bundle
 ```
 
+5. Install NVM (Node Version Manager)
+
+```
+brew install nvm
+```
+
+6. Install Fish (the friendly-interactive shell)
+
+```
+brew install fish
+
+# Make fish the default shell
+sudo chsh -s /usr/local/bin/fish
+
+# Do this if for some reason your path to fish is different:
+# sudo chsh -s (which fish)
+
+```
+
+7. Install OMF (Oh My Fish)
+
+```
+curl -L https://get.oh-my.fish | fish
+
+# This plugin allows Fish to work with NVM
+omf install nvm
+
+# Sets the NVM directory
+set -gx NVM_DIR (brew --prefix nvm)
+```
+
 ## VSCode Extensions
 
 - Beautify (hookyqr.beautify)
@@ -100,4 +131,4 @@ cd ~/.dotfiles && brew bundle
 - Create a [bootable USB installer for macOS](https://support.apple.com/en-us/HT201372).
 - Integrate other cloud services into your Dotfiles process (Dropbox, Google Drive, etc.).
 - Find inspiration and examples in other Dotfiles repositories at [dotfiles.github.io](https://dotfiles.github.io/).
-- And last, but hopefully not least, [**take my course, _Dotfiles from Start to Finish-ish_**](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276 "Learn Dotfiles from Start to Finish-ish on Udemy")!
+- And last, but hopefully not least, [**take my course, _Dotfiles from Start to Finish-ish_**](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276 'Learn Dotfiles from Start to Finish-ish on Udemy')!
